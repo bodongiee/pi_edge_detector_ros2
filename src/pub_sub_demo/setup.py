@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = pub_sub_test.talker:main',
-            'listener = pub_sub_test.listener:main',
+            'talker = pub_sub_demo.talker:main',
+            'listener = pub_sub_demo.listener:main',
         ],
     },
 )
